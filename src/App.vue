@@ -5,7 +5,11 @@ import Navbar from './components/Navbar.vue';
 
 <template>
   <Navbar />
-  <RouterView />
+  <router-view v-slot="{ Component }">
+    <transition name="fade" mode="out-in">
+      <component :is="Component" />
+    </transition>
+  </router-view>
 
 </template>
 
@@ -14,5 +18,16 @@ import Navbar from './components/Navbar.vue';
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+/* estilos de transiciones entre navegación */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
 }
 </style>
