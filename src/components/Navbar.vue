@@ -12,6 +12,9 @@
         <RouterLink to="/about">About</RouterLink>
       </li>
       <li>
+        <RouterLink to="/productos">Productos</RouterLink>
+      </li>
+      <li>
         <RouterLink to="/contacto">Contact</RouterLink>
       </li>
     </ul>

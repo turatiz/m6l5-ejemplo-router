@@ -5,6 +5,7 @@ export const productos = [
     descripcion: 'Camiseta de algodón',
     categoria: 'Ropa',
     precio: 19.99,
+    imagen: 'https://picsum.photos/seed/producto1/300/200',
   },
   {
     id: 2,
@@ -12,6 +13,7 @@ export const productos = [
     descripcion: 'Jeans ajustados clásicos',
     categoria: 'Ropa',
     precio: 39.99,
+    imagen: 'https://picsum.photos/seed/producto2/300/200',
   },
   {
     id: 3,
@@ -19,6 +21,7 @@ export const productos = [
     descripcion: 'Calzado para correr',
     categoria: 'Calzado',
     precio: 59.95,
+    imagen: 'https://picsum.photos/seed/producto3/300/200',
   },
   {
     id: 4,
@@ -26,6 +29,7 @@ export const productos = [
     descripcion: 'Bolso mano elegante',
     categoria: 'Accesorios',
     precio: 79.0,
+    imagen: 'https://picsum.photos/seed/producto4/300/200',
   },
   {
     id: 5,
@@ -33,6 +37,7 @@ export const productos = [
     descripcion: 'Gorra con visera',
     categoria: 'Ropa',
     precio: 14.5,
+    imagen: 'https://picsum.photos/seed/producto5/300/200',
   },
   {
     id: 6,
@@ -40,6 +45,7 @@ export const productos = [
     descripcion: 'Reloj inteligente con GPS',
     categoria: 'Tecnología',
     precio: 129.9,
+    imagen: 'https://picsum.photos/seed/producto6/300/200',
   },
   {
     id: 7,
@@ -47,6 +53,7 @@ export const productos = [
     descripcion: 'Sonido estéreo Bluetooth',
     categoria: 'Tecnología',
     precio: 49.99,
+    imagen: 'https://picsum.photos/seed/producto7/300/200',
   },
   {
     id: 8,
@@ -54,6 +61,7 @@ export const productos = [
     descripcion: 'Mochila resistente al agua',
     categoria: 'Accesorios',
     precio: 45.0,
+    imagen: 'https://picsum.photos/seed/producto8/300/200',
   },
   {
     id: 9,
@@ -61,6 +69,7 @@ export const productos = [
     descripcion: 'Recetas internacionales',
     categoria: 'Libros',
     precio: 22.3,
+    imagen: 'https://picsum.photos/seed/producto9/300/200',
   },
   {
     id: 10,
@@ -68,6 +77,7 @@ export const productos = [
     descripcion: 'Lámpara LED con dimmer',
     categoria: 'Hogar',
     precio: 34.8,
+    imagen: 'https://picsum.photos/seed/producto10/300/200',
   },
   {
     id: 11,
@@ -75,6 +85,7 @@ export const productos = [
     descripcion: 'Sábanas algodón 200 hilos',
     categoria: 'Hogar',
     precio: 49.0,
+    imagen: 'https://picsum.photos/seed/producto11/300/200',
   },
   {
     id: 12,
@@ -82,6 +93,7 @@ export const productos = [
     descripcion: 'Silla ergonómica con ruedas',
     categoria: 'Muebles',
     precio: 89.99,
+    imagen: 'https://picsum.photos/seed/producto12/300/200',
   },
   {
     id: 13,
@@ -89,6 +101,7 @@ export const productos = [
     descripcion: 'Mesa portátil de plástico',
     categoria: 'Muebles',
     precio: 39.5,
+    imagen: 'https://picsum.photos/seed/producto13/300/200',
   },
   {
     id: 14,
@@ -96,6 +109,7 @@ export const productos = [
     descripcion: 'Cafetera para café expreso',
     categoria: 'Cocina',
     precio: 99.9,
+    imagen: 'https://picsum.photos/seed/producto14/300/200',
   },
   {
     id: 15,
@@ -103,6 +117,7 @@ export const productos = [
     descripcion: 'Set de 6 piezas antiadherente',
     categoria: 'Cocina',
     precio: 75.0,
+    imagen: 'https://picsum.photos/seed/producto15/300/200',
   },
   {
     id: 16,
@@ -110,6 +125,7 @@ export const productos = [
     descripcion: 'Botella 1L acero inoxidable',
     categoria: 'Accesorios',
     precio: 18.0,
+    imagen: 'https://picsum.photos/seed/producto16/300/200',
   },
   {
     id: 17,
@@ -117,6 +133,7 @@ export const productos = [
     descripcion: 'Cojín 45x45cm suave',
     categoria: 'Hogar',
     precio: 12.99,
+    imagen: 'https://picsum.photos/seed/producto17/300/200',
   },
   {
     id: 18,
@@ -124,6 +141,7 @@ export const productos = [
     descripcion: 'Set de 12 piezas cerámica',
     categoria: 'Hogar',
     precio: 59.9,
+    imagen: 'https://picsum.photos/seed/producto18/300/200',
   },
   {
     id: 19,
@@ -131,6 +149,7 @@ export const productos = [
     descripcion: 'Teclado RGB con switches',
     categoria: 'Tecnología',
     precio: 79.99,
+    imagen: 'https://picsum.photos/seed/producto19/300/200',
   },
   {
     id: 20,
@@ -138,5 +157,6 @@ export const productos = [
     descripcion: 'Mouse ergonómico inalámbrico',
     categoria: 'Tecnología',
     precio: 24.75,
+    imagen: 'https://picsum.photos/seed/producto20/300/200',
   },
 ];
