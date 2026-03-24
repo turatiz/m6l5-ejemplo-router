@@ -1,6 +1,7 @@
 import AboutView from '@/views/AboutView.vue';
 import ContactView from '@/views/ContactView.vue';
 import HomeView from '@/views/HomeView.vue';
+import OpinionesView from '@/views/OpinionesView.vue';
 import ProductoDetalleView from '@/views/ProductoDetalleView.vue';
 import ProductosView from '@/views/ProductosView.vue';
 import { createWebHistory, createRouter } from 'vue-router';
@@ -22,6 +23,14 @@ const routes = [
     path: '/productos/:id',
     name: 'detalle',
     component: ProductoDetalleView,
+    children: [
+      {
+        path: 'opiniones',
+        component: OpinionesView,
+        props: true,
+        name: 'opiniones',
+      },
+    ],
   },
   {
     path: '/about',

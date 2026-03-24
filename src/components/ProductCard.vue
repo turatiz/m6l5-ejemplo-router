@@ -12,12 +12,15 @@ const props = defineProps(['producto'])
     <div class="card__body">
       <h3>${{ props.producto.precio }}</h3>
       <p>{{ props.producto.descripcion }}</p>
-      <RouterLink :to="{ name: 'detalle', params: { id: props.producto.id } }">Ver detalle</RouterLink>
+      <div class="card__actions">
+        <RouterLink :to="{ name: 'detalle', params: { id: props.producto.id } }">Ver detalle</RouterLink>
+      </div>
     </div>
     <div class="card__footer">
       <p class="badge">{{ props.producto.categoria }}</p>
     </div>
   </div>
+
 </template>
 
 <style scoped>
@@ -25,8 +28,6 @@ const props = defineProps(['producto'])
   border: 2px solid black;
   border-radius: 5px;
   padding: 0.5rem;
-  width: calc((100vw/3) - 0.5rem);
-  display: inline-block;
 }
 
 .badge {
@@ -41,5 +42,10 @@ const props = defineProps(['producto'])
 .card__header img {
   width: 100%;
   border-radius: 5px;
+}
+
+.card__actions {
+  display: flex;
+  justify-content: space-between;
 }
 </style>

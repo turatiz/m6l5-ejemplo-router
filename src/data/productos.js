@@ -6,6 +6,38 @@ export const productos = [
     categoria: 'Ropa',
     precio: 19.99,
     imagen: 'https://picsum.photos/seed/producto1/300/200',
+    opiniones: [
+      {
+        usuario: 'Ana López',
+        comentario: 'Muy cómoda y de buena calidad.',
+        calificacion: 5,
+        fecha: '2023-10-01',
+      },
+      {
+        usuario: 'Carlos García',
+        comentario: 'El color es tal como se ve en la foto.',
+        calificacion: 4,
+        fecha: '2023-10-05',
+      },
+      {
+        usuario: 'María Rodríguez',
+        comentario: 'Me gusta el material, suave al tacto.',
+        calificacion: 5,
+        fecha: '2023-10-10',
+      },
+      {
+        usuario: 'Juan Pérez',
+        comentario: 'Buena relación calidad-precio.',
+        calificacion: 4,
+        fecha: '2023-10-15',
+      },
+      {
+        usuario: 'Laura Sánchez',
+        comentario: 'Perfecta para el día a día.',
+        calificacion: 5,
+        fecha: '2023-10-20',
+      },
+    ],
   },
   {
     id: 2,
@@ -14,6 +46,38 @@ export const productos = [
     categoria: 'Ropa',
     precio: 39.99,
     imagen: 'https://picsum.photos/seed/producto2/300/200',
+    opiniones: [
+      {
+        usuario: 'Pedro Martínez',
+        comentario: 'Excelente ajuste y durabilidad.',
+        calificacion: 5,
+        fecha: '2023-10-02',
+      },
+      {
+        usuario: 'Sofia Hernández',
+        comentario: 'Me encantan, son muy cómodos.',
+        calificacion: 5,
+        fecha: '2023-10-07',
+      },
+      {
+        usuario: 'Diego Torres',
+        comentario: 'Buena tela, no se desgasta fácilmente.',
+        calificacion: 4,
+        fecha: '2023-10-12',
+      },
+      {
+        usuario: 'Elena Ruiz',
+        comentario: 'Perfectos para cualquier ocasión.',
+        calificacion: 5,
+        fecha: '2023-10-17',
+      },
+      {
+        usuario: 'Miguel Gómez',
+        comentario: 'Recomiendo este modelo.',
+        calificacion: 4,
+        fecha: '2023-10-22',
+      },
+    ],
   },
   {
     id: 3,
@@ -22,6 +86,38 @@ export const productos = [
     categoria: 'Calzado',
     precio: 59.95,
     imagen: 'https://picsum.photos/seed/producto3/300/200',
+    opiniones: [
+      {
+        usuario: 'Rosa Díaz',
+        comentario: 'Ideales para correr largas distancias.',
+        calificacion: 5,
+        fecha: '2023-10-03',
+      },
+      {
+        usuario: 'Antonio Moreno',
+        comentario: 'Muy ligeras y cómodas.',
+        calificacion: 4,
+        fecha: '2023-10-08',
+      },
+      {
+        usuario: 'Carmen Jiménez',
+        comentario: 'Buen agarre en superficies mojadas.',
+        calificacion: 5,
+        fecha: '2023-10-13',
+      },
+      {
+        usuario: 'Francisco Álvarez',
+        comentario: 'Excelente amortiguación.',
+        calificacion: 5,
+        fecha: '2023-10-18',
+      },
+      {
+        usuario: 'Isabel Romero',
+        comentario: 'Me han durado mucho tiempo.',
+        calificacion: 4,
+        fecha: '2023-10-23',
+      },
+    ],
   },
   {
     id: 4,
@@ -30,6 +126,38 @@ export const productos = [
     categoria: 'Accesorios',
     precio: 79.0,
     imagen: 'https://picsum.photos/seed/producto4/300/200',
+    opiniones: [
+      {
+        usuario: 'Luis Fernández',
+        comentario: 'Elegante y espacioso.',
+        calificacion: 5,
+        fecha: '2023-10-04',
+      },
+      {
+        usuario: 'Patricia Morales',
+        comentario: 'El cuero es de alta calidad.',
+        calificacion: 5,
+        fecha: '2023-10-09',
+      },
+      {
+        usuario: 'Roberto Navarro',
+        comentario: 'Perfecto para el trabajo.',
+        calificacion: 4,
+        fecha: '2023-10-14',
+      },
+      {
+        usuario: 'Beatriz Ortega',
+        comentario: 'Me encanta el diseño.',
+        calificacion: 5,
+        fecha: '2023-10-19',
+      },
+      {
+        usuario: 'Alberto Delgado',
+        comentario: 'Buena inversión.',
+        calificacion: 4,
+        fecha: '2023-10-24',
+      },
+    ],
   },
   {
     id: 5,
@@ -38,6 +166,38 @@ export const productos = [
     categoria: 'Ropa',
     precio: 14.5,
     imagen: 'https://picsum.photos/seed/producto5/300/200',
+    opiniones: [
+      {
+        usuario: 'Silvia Castro',
+        comentario: 'Cómoda y ajustable.',
+        calificacion: 4,
+        fecha: '2023-10-05',
+      },
+      {
+        usuario: 'Javier Vargas',
+        comentario: 'Buena protección solar.',
+        calificacion: 5,
+        fecha: '2023-10-10',
+      },
+      {
+        usuario: 'Teresa Gil',
+        comentario: 'Estilo clásico.',
+        calificacion: 4,
+        fecha: '2023-10-15',
+      },
+      {
+        usuario: 'Manuel Serrano',
+        comentario: 'Fácil de lavar.',
+        calificacion: 5,
+        fecha: '2023-10-20',
+      },
+      {
+        usuario: 'Cristina Rubio',
+        comentario: 'Recomiendo para el verano.',
+        calificacion: 4,
+        fecha: '2023-10-25',
+      },
+    ],
   },
   {
     id: 6,
@@ -46,6 +206,38 @@ export const productos = [
     categoria: 'Tecnología',
     precio: 129.9,
     imagen: 'https://picsum.photos/seed/producto6/300/200',
+    opiniones: [
+      {
+        usuario: 'Fernando León',
+        comentario: 'Funciones avanzadas y batería duradera.',
+        calificacion: 5,
+        fecha: '2023-10-06',
+      },
+      {
+        usuario: 'Mónica Peña',
+        comentario: 'Fácil de usar y sincronizar.',
+        calificacion: 4,
+        fecha: '2023-10-11',
+      },
+      {
+        usuario: 'Hugo Cortés',
+        comentario: 'GPS preciso.',
+        calificacion: 5,
+        fecha: '2023-10-16',
+      },
+      {
+        usuario: 'Alicia Medina',
+        comentario: 'Diseño moderno.',
+        calificacion: 5,
+        fecha: '2023-10-21',
+      },
+      {
+        usuario: 'Víctor Flores',
+        comentario: 'Vale la pena el precio.',
+        calificacion: 4,
+        fecha: '2023-10-26',
+      },
+    ],
   },
   {
     id: 7,
@@ -54,6 +246,38 @@ export const productos = [
     categoria: 'Tecnología',
     precio: 49.99,
     imagen: 'https://picsum.photos/seed/producto7/300/200',
+    opiniones: [
+      {
+        usuario: 'Raquel Vega',
+        comentario: 'Excelente calidad de sonido.',
+        calificacion: 5,
+        fecha: '2023-10-07',
+      },
+      {
+        usuario: 'Adrián Ramos',
+        comentario: 'Cómodos para largas sesiones.',
+        calificacion: 4,
+        fecha: '2023-10-12',
+      },
+      {
+        usuario: 'Nuria Guerrero',
+        comentario: 'Buena cancelación de ruido.',
+        calificacion: 5,
+        fecha: '2023-10-17',
+      },
+      {
+        usuario: 'Óscar Soto',
+        comentario: 'Fácil conexión Bluetooth.',
+        calificacion: 5,
+        fecha: '2023-10-22',
+      },
+      {
+        usuario: 'Inés Domínguez',
+        comentario: 'Batería dura mucho.',
+        calificacion: 4,
+        fecha: '2023-10-27',
+      },
+    ],
   },
   {
     id: 8,
@@ -62,6 +286,38 @@ export const productos = [
     categoria: 'Accesorios',
     precio: 45.0,
     imagen: 'https://picsum.photos/seed/producto8/300/200',
+    opiniones: [
+      {
+        usuario: 'Pablo Aguilar',
+        comentario: 'Espaciosa y resistente.',
+        calificacion: 5,
+        fecha: '2023-10-08',
+      },
+      {
+        usuario: 'Lorena Blanco',
+        comentario: 'Perfecta para la ciudad.',
+        calificacion: 4,
+        fecha: '2023-10-13',
+      },
+      {
+        usuario: 'Sergio Reyes',
+        comentario: 'Material impermeable excelente.',
+        calificacion: 5,
+        fecha: '2023-10-18',
+      },
+      {
+        usuario: 'Eva Mendoza',
+        comentario: 'Cómoda de llevar.',
+        calificacion: 5,
+        fecha: '2023-10-23',
+      },
+      {
+        usuario: 'Rubén Herrera',
+        comentario: 'Buen diseño ergonómico.',
+        calificacion: 4,
+        fecha: '2023-10-28',
+      },
+    ],
   },
   {
     id: 9,
@@ -70,6 +326,38 @@ export const productos = [
     categoria: 'Libros',
     precio: 22.3,
     imagen: 'https://picsum.photos/seed/producto9/300/200',
+    opiniones: [
+      {
+        usuario: 'Natalia Cruz',
+        comentario: 'Recetas deliciosas y fáciles.',
+        calificacion: 5,
+        fecha: '2023-10-09',
+      },
+      {
+        usuario: 'Iván Muñoz',
+        comentario: 'Gran variedad de platos.',
+        calificacion: 4,
+        fecha: '2023-10-14',
+      },
+      {
+        usuario: 'Clara Gallego',
+        comentario: 'Inspirador para cocinar.',
+        calificacion: 5,
+        fecha: '2023-10-19',
+      },
+      {
+        usuario: 'Ángel Santana',
+        comentario: 'Fotos hermosas.',
+        calificacion: 5,
+        fecha: '2023-10-24',
+      },
+      {
+        usuario: 'Pilar Cabrera',
+        comentario: 'Recomiendo a chefs principiantes.',
+        calificacion: 4,
+        fecha: '2023-10-29',
+      },
+    ],
   },
   {
     id: 10,
@@ -78,6 +366,38 @@ export const productos = [
     categoria: 'Hogar',
     precio: 34.8,
     imagen: 'https://picsum.photos/seed/producto10/300/200',
+    opiniones: [
+      {
+        usuario: 'Tomás Vera',
+        comentario: 'Iluminación ajustable perfecta.',
+        calificacion: 5,
+        fecha: '2023-10-10',
+      },
+      {
+        usuario: 'Marta Campos',
+        comentario: 'Diseño moderno y funcional.',
+        calificacion: 4,
+        fecha: '2023-10-15',
+      },
+      {
+        usuario: 'Gabriel Pardo',
+        comentario: 'Fácil de instalar.',
+        calificacion: 5,
+        fecha: '2023-10-20',
+      },
+      {
+        usuario: 'Susana Molina',
+        comentario: 'Ahorra energía.',
+        calificacion: 5,
+        fecha: '2023-10-25',
+      },
+      {
+        usuario: 'Emilio Suárez',
+        comentario: 'Ideal para el escritorio.',
+        calificacion: 4,
+        fecha: '2023-10-30',
+      },
+    ],
   },
   {
     id: 11,
@@ -86,6 +406,38 @@ export const productos = [
     categoria: 'Hogar',
     precio: 49.0,
     imagen: 'https://picsum.photos/seed/producto11/300/200',
+    opiniones: [
+      {
+        usuario: 'Regina León',
+        comentario: 'Suaves y duraderas.',
+        calificacion: 5,
+        fecha: '2023-10-11',
+      },
+      {
+        usuario: 'Héctor Peña',
+        comentario: 'Buena calidad del algodón.',
+        calificacion: 4,
+        fecha: '2023-10-16',
+      },
+      {
+        usuario: 'Olga Cortés',
+        comentario: 'Fáciles de lavar.',
+        calificacion: 5,
+        fecha: '2023-10-21',
+      },
+      {
+        usuario: 'Rafael Medina',
+        comentario: 'Cómodas para dormir.',
+        calificacion: 5,
+        fecha: '2023-10-26',
+      },
+      {
+        usuario: 'Amelia Flores',
+        comentario: 'Recomiendo encarecidamente.',
+        calificacion: 4,
+        fecha: '2023-10-31',
+      },
+    ],
   },
   {
     id: 12,
@@ -94,6 +446,38 @@ export const productos = [
     categoria: 'Muebles',
     precio: 89.99,
     imagen: 'https://picsum.photos/seed/producto12/300/200',
+    opiniones: [
+      {
+        usuario: 'Víctor Vega',
+        comentario: 'Muy cómoda para largas horas.',
+        calificacion: 5,
+        fecha: '2023-10-12',
+      },
+      {
+        usuario: 'Lola Ramos',
+        comentario: 'Ajustable y estable.',
+        calificacion: 4,
+        fecha: '2023-10-17',
+      },
+      {
+        usuario: 'Enrique Guerrero',
+        comentario: 'Buen soporte lumbar.',
+        calificacion: 5,
+        fecha: '2023-10-22',
+      },
+      {
+        usuario: 'Teresa Soto',
+        comentario: 'Fácil de armar.',
+        calificacion: 5,
+        fecha: '2023-10-27',
+      },
+      {
+        usuario: 'Joaquín Domínguez',
+        comentario: 'Vale cada centavo.',
+        calificacion: 4,
+        fecha: '2023-11-01',
+      },
+    ],
   },
   {
     id: 13,
@@ -102,6 +486,38 @@ export const productos = [
     categoria: 'Muebles',
     precio: 39.5,
     imagen: 'https://picsum.photos/seed/producto13/300/200',
+    opiniones: [
+      {
+        usuario: 'Inmaculada Aguilar',
+        comentario: 'Fácil de transportar y almacenar.',
+        calificacion: 5,
+        fecha: '2023-10-13',
+      },
+      {
+        usuario: 'Gonzalo Blanco',
+        comentario: 'Resistente y ligera.',
+        calificacion: 4,
+        fecha: '2023-10-18',
+      },
+      {
+        usuario: 'Rocío Reyes',
+        comentario: 'Perfecta para espacios pequeños.',
+        calificacion: 5,
+        fecha: '2023-10-23',
+      },
+      {
+        usuario: 'Felipe Mendoza',
+        comentario: 'Buena estabilidad.',
+        calificacion: 5,
+        fecha: '2023-10-28',
+      },
+      {
+        usuario: 'Consuelo Herrera',
+        comentario: 'Recomiendo para camping.',
+        calificacion: 4,
+        fecha: '2023-11-02',
+      },
+    ],
   },
   {
     id: 14,
@@ -110,6 +526,38 @@ export const productos = [
     categoria: 'Cocina',
     precio: 99.9,
     imagen: 'https://picsum.photos/seed/producto14/300/200',
+    opiniones: [
+      {
+        usuario: 'Álvaro Cruz',
+        comentario: 'Café delicioso cada mañana.',
+        calificacion: 5,
+        fecha: '2023-10-14',
+      },
+      {
+        usuario: 'Berta Muñoz',
+        comentario: 'Fácil de usar.',
+        calificacion: 4,
+        fecha: '2023-10-19',
+      },
+      {
+        usuario: 'César Gallego',
+        comentario: 'Calienta rápido.',
+        calificacion: 5,
+        fecha: '2023-10-24',
+      },
+      {
+        usuario: 'Dolores Santana',
+        comentario: 'Diseño elegante.',
+        calificacion: 5,
+        fecha: '2023-10-29',
+      },
+      {
+        usuario: 'Eduardo Cabrera',
+        comentario: 'Buena presión de vapor.',
+        calificacion: 4,
+        fecha: '2023-11-03',
+      },
+    ],
   },
   {
     id: 15,
@@ -118,6 +566,38 @@ export const productos = [
     categoria: 'Cocina',
     precio: 75.0,
     imagen: 'https://picsum.photos/seed/producto15/300/200',
+    opiniones: [
+      {
+        usuario: 'Fátima Vera',
+        comentario: 'Antiaderente excelente.',
+        calificacion: 5,
+        fecha: '2023-10-15',
+      },
+      {
+        usuario: 'Gerardo Campos',
+        comentario: 'Fáciles de limpiar.',
+        calificacion: 4,
+        fecha: '2023-10-20',
+      },
+      {
+        usuario: 'Hilda Pardo',
+        comentario: 'Duraderas y versátiles.',
+        calificacion: 5,
+        fecha: '2023-10-25',
+      },
+      {
+        usuario: 'Ignacio Molina',
+        comentario: 'Buen tamaño para familias.',
+        calificacion: 5,
+        fecha: '2023-10-30',
+      },
+      {
+        usuario: 'Julia Suárez',
+        comentario: 'Recomiendo para cocinar diario.',
+        calificacion: 4,
+        fecha: '2023-11-04',
+      },
+    ],
   },
   {
     id: 16,
@@ -126,6 +606,38 @@ export const productos = [
     categoria: 'Accesorios',
     precio: 18.0,
     imagen: 'https://picsum.photos/seed/producto16/300/200',
+    opiniones: [
+      {
+        usuario: 'Karla León',
+        comentario: 'Mantiene el calor por horas.',
+        calificacion: 5,
+        fecha: '2023-10-16',
+      },
+      {
+        usuario: 'Lorenzo Peña',
+        comentario: 'Ligera y resistente.',
+        calificacion: 4,
+        fecha: '2023-10-21',
+      },
+      {
+        usuario: 'Mireya Cortés',
+        comentario: 'Fácil de llevar.',
+        calificacion: 5,
+        fecha: '2023-10-26',
+      },
+      {
+        usuario: 'Norberto Medina',
+        comentario: 'Buen diseño ergonómico.',
+        calificacion: 5,
+        fecha: '2023-10-31',
+      },
+      {
+        usuario: 'Omar Flores',
+        comentario: 'Ideal para viajes.',
+        calificacion: 4,
+        fecha: '2023-11-05',
+      },
+    ],
   },
   {
     id: 17,
@@ -134,6 +646,38 @@ export const productos = [
     categoria: 'Hogar',
     precio: 12.99,
     imagen: 'https://picsum.photos/seed/producto17/300/200',
+    opiniones: [
+      {
+        usuario: 'Pilar Vega',
+        comentario: 'Suave y cómodo.',
+        calificacion: 5,
+        fecha: '2023-10-17',
+      },
+      {
+        usuario: 'Quintín Ramos',
+        comentario: 'Añade estilo al sofá.',
+        calificacion: 4,
+        fecha: '2023-10-22',
+      },
+      {
+        usuario: 'Ramona Guerrero',
+        comentario: 'Fácil de lavar.',
+        calificacion: 5,
+        fecha: '2023-10-27',
+      },
+      {
+        usuario: 'Salvador Soto',
+        comentario: 'Buena calidad de relleno.',
+        calificacion: 5,
+        fecha: '2023-11-01',
+      },
+      {
+        usuario: 'Tania Domínguez',
+        comentario: 'Recomiendo para decoración.',
+        calificacion: 4,
+        fecha: '2023-11-06',
+      },
+    ],
   },
   {
     id: 18,
@@ -142,6 +686,38 @@ export const productos = [
     categoria: 'Hogar',
     precio: 59.9,
     imagen: 'https://picsum.photos/seed/producto18/300/200',
+    opiniones: [
+      {
+        usuario: 'Ulises Aguilar',
+        comentario: 'Elegantes y duraderos.',
+        calificacion: 5,
+        fecha: '2023-10-18',
+      },
+      {
+        usuario: 'Valeria Blanco',
+        comentario: 'Fáciles de apilar.',
+        calificacion: 4,
+        fecha: '2023-10-23',
+      },
+      {
+        usuario: 'Walter Reyes',
+        comentario: 'Buen tamaño para cenas.',
+        calificacion: 5,
+        fecha: '2023-10-28',
+      },
+      {
+        usuario: 'Ximena Mendoza',
+        comentario: 'Diseño moderno.',
+        calificacion: 5,
+        fecha: '2023-11-02',
+      },
+      {
+        usuario: 'Yolanda Herrera',
+        comentario: 'Recomiendo para el hogar.',
+        calificacion: 4,
+        fecha: '2023-11-07',
+      },
+    ],
   },
   {
     id: 19,
@@ -150,6 +726,38 @@ export const productos = [
     categoria: 'Tecnología',
     precio: 79.99,
     imagen: 'https://picsum.photos/seed/producto19/300/200',
+    opiniones: [
+      {
+        usuario: 'Zacarías Cruz',
+        comentario: 'Excelente respuesta táctil.',
+        calificacion: 5,
+        fecha: '2023-10-19',
+      },
+      {
+        usuario: 'Ángela Muñoz',
+        comentario: 'RGB personalizable.',
+        calificacion: 4,
+        fecha: '2023-10-24',
+      },
+      {
+        usuario: 'Bernardo Gallego',
+        comentario: 'Duradero y preciso.',
+        calificacion: 5,
+        fecha: '2023-10-29',
+      },
+      {
+        usuario: 'Carolina Santana',
+        comentario: 'Ideal para gaming.',
+        calificacion: 5,
+        fecha: '2023-11-03',
+      },
+      {
+        usuario: 'Daniel Cabrera',
+        comentario: 'Buen sonido de teclas.',
+        calificacion: 4,
+        fecha: '2023-11-08',
+      },
+    ],
   },
   {
     id: 20,
@@ -158,5 +766,37 @@ export const productos = [
     categoria: 'Tecnología',
     precio: 24.75,
     imagen: 'https://picsum.photos/seed/producto20/300/200',
+    opiniones: [
+      {
+        usuario: 'Elena Vera',
+        comentario: 'Cómodo para largas sesiones.',
+        calificacion: 5,
+        fecha: '2023-10-20',
+      },
+      {
+        usuario: 'Federico Campos',
+        comentario: 'Preciso y rápido.',
+        calificacion: 4,
+        fecha: '2023-10-25',
+      },
+      {
+        usuario: 'Gabriela Pardo',
+        comentario: 'Batería dura semanas.',
+        calificacion: 5,
+        fecha: '2023-10-30',
+      },
+      {
+        usuario: 'Hugo Molina',
+        comentario: 'Diseño ergonómico excelente.',
+        calificacion: 5,
+        fecha: '2023-11-04',
+      },
+      {
+        usuario: 'Irene Suárez',
+        comentario: 'Recomiendo para oficina.',
+        calificacion: 4,
+        fecha: '2023-11-09',
+      },
+    ],
   },
 ];
